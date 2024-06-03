@@ -4,9 +4,9 @@ on:
         branches: [ main ]
 jobs:
     playwrighttests:
-    runs-on: ubuntu-latest
+      runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
-    - name: Say hello
-      run: echo Hello
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Say hello
+        run: echo Hello
